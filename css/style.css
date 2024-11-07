@@ -158,16 +158,35 @@ h3 {
 }
 
 .heart {
-    display: flex;
-   color: black;
-   position: absolute;
-   top: 20px;
-   right: 0;
-   height: 50px;
-   width: 50px;
-   font-size: 25px;
-   justify-content: center;
-   align-items: center;
-   background-color: white;
+        display: flex;
+        color: black;
+        position: absolute;
+        top: 20px;
+        right: 0;
+        padding: 3%;
+        font-size: 100%;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
 }
 
+.tag {
+    padding: 5px 10px;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.tag-red {
+    background-color: red;
+    margin-right: 5px;
+}
+
+.tag-green {
+    background-color: green;
+}
+
+.img-container div {
+    position: absolute;
+    bottom: 50px;
+}
