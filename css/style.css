@@ -36,6 +36,11 @@ body {
 ------------*/
 header {
     background-color: #ff6900;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
 .header-top {
     display: flex;
@@ -43,6 +48,7 @@ header {
     align-items: center;
     height: 50px;
     font-size: 12px;
+
 }
 
 ul {
