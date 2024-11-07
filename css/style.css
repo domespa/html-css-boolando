@@ -12,7 +12,7 @@
 ------------*/
 
 .container {
-    max-width: 100%;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -35,13 +35,14 @@ body {
     HEADER
 ------------*/
 header {
-    display: flex;
     background-color: #ff6900;
-    justify-content: space-around;
+}
+.header-top {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    padding-right: auto;
-    padding-left: auto;
     height: 50px;
+    font-size: 12px;
 }
 
 ul {
@@ -54,5 +55,48 @@ ul {
 .logo {
     height: 20px;
     display: flex;
+}
 
+/*------------
+    MAIN
+------------*/
+.row {
+    padding-top: 30px;
+    max-width: 1200px;
+    margin-bottom: 40px;
+    display: flex;
+    gap:10px;
+
+}
+
+.cols {
+    width: calc(100% / 3);
+    /* background-color: #ff6900; */
+    /* gap: 20px;  */
+    position: relative;
+}
+
+.img-fluid {
+    max-width: 100%;
+}
+
+.marca {
+    color: #000000;
+    font-size: 14px;
+}
+
+.type {
+    color: #000000;
+    font-size: 16px;
+}
+
+.new-price {
+    color: red;
+    font-size: 14px;
+}
+
+.old-price {
+    color: black;
+    text-decoration: line-through;
+    font-size: 14px;
 }
