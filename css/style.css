@@ -139,3 +139,35 @@ h3 {
     display: flex;
     gap: 10px;
 }
+
+.hoverimg {
+    display: none;
+}
+
+.img-container:hover .img-fluid {
+    display: none;
+}
+
+.img-container:hover .hoverimg {
+    display:inline-block;
+}
+
+.img-container {
+    max-width: 100%;
+    position: relative;
+}
+
+.heart {
+    display: flex;
+   color: black;
+   position: absolute;
+   top: 20px;
+   right: 0;
+   height: 50px;
+   width: 50px;
+   font-size: 25px;
+   justify-content: center;
+   align-items: center;
+   background-color: white;
+}
+
